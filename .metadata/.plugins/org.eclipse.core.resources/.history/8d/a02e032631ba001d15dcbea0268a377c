@@ -1,0 +1,11 @@
+package com.l2c.springdemo;
+
+public class RandomFortune implements FortuneService {
+
+	@Override
+	public String getFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

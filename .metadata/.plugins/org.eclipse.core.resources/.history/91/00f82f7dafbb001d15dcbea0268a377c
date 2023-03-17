@@ -1,0 +1,12 @@
+package com.l2c.springdemo;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@ComponentScan("com.l2c.springdemo")
+public class SportConfig {
+	
+	
+
+}

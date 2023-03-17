@@ -1,0 +1,8 @@
+package com.luv2code.aopdemo;
+
+@Configuration
+@EnableAspectJAutoProxy
+@ComponentScan("com.luv2code.aopdemo")
+public class DemoConfig {
+
+}

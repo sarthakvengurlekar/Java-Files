@@ -1,0 +1,31 @@
+package com.l2c.springdemo;
+
+public class CricketCoach implements Coach {
+	
+	private FortuneService fortuneService;
+	
+	//create a no-arg constructor
+	public CricketCoach() {
+		System.out.println("CricketCoach: inside no-arg constructor");
+	}
+	
+	//setter method
+	public void setFortuneService(FortuneService fortuneService) {
+		System.out.println("CricketCoach: inside setter method - setFortuneService constructor");
+		this.fortuneService = fortuneService;
+	}
+
+
+
+	@Override
+	public String getDailyWorkout() {
+		return "Practice fast bowling brooo";
+	}
+
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return fortuneService.getFortune();
+	}
+
+}

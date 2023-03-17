@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Tue Mar 07 18:51:44 CST 2023
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\sarth\\OneDrive\\Desktop\\Eclipse\\spring-mvc-demo\\WebContent\\WEB-INF\\lib\\spring-web-5.3.9-sources.jar=WEB-INF/lib/spring-web-5.3.9-sources.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\sarth\\OneDrive\\Desktop\\Eclipse\\spring-mvc-demo\\WebContent\\WEB-INF\\lib\\spring-web-5.3.9.jar=WEB-INF/lib/spring-web-5.3.9.jar

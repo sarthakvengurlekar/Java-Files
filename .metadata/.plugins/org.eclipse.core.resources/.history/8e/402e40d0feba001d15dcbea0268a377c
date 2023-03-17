@@ -1,0 +1,19 @@
+package com.l2c.springdemo;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class TtCoach implements Coach {
+
+	@Override
+	public String getDailyWorkout() {
+		return "Already a god chill";
+	}
+
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
